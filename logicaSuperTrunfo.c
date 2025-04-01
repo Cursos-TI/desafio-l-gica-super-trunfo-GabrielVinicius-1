@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main() {
    
     printf("Lógica Super Trunfo!");
@@ -21,80 +20,57 @@ int main() {
 
     printf("Carta1\n");
 
-    printf("Insira o estado:\n");
-    scanf("%c", &estado);
+    printf("Insira o estadoA:\n");
+    scanf("%c", &estadoA);
 
-    printf("Insira o codigo:\n");
-    scanf("%s", codigo);
+    printf("Insira o codigoA:\n");
+    scanf("%s", codigoA);
 
-    printf("Insira a cidade:\n");
-    scanf("%s", cidade);
+    printf("Insira a cidadeA:\n");
+    scanf("%s", cidadeA);
 
-    printf("Insira a populacao:\n");
-    scanf("%d", &populacao);
+    printf("Insira a populacaoA:\n");
+    scanf("%d", &populacaoA);
 
-    printf("Insira a area:\n");
-    scanf("%f", &area);
+    printf("Insira a areaA:\n");
+    scanf("%f", &areaA);
 
-    printf("Insira o PIB:\n");
-    scanf("%f", &pib);
+    printf("Insira o PIBA:\n");
+    scanf("%f", &pibA);
 
-    printf("Insira o numero de pontos turisticos:\n");
-    scanf("%d", &turismo);
+    printf("Insira o numero de pontos turisticosA:\n");
+    scanf("%d", &turismoA);
 
     // Cadastro da Carta 2 //
 
     printf("Carta2\n");
 
-    printf("Insira o estado:\n");
-    scanf("%c%*c", &estado);
+    printf("Insira o estadoB:\n");
+    scanf("%c%*c", &estadoB);
 
-    printf("Insira o codigo:\n");
-    scanf("%s", codigo);
+    printf("Insira o codigoB:\n");
+    scanf("%s", codigoB);
 
-    printf("Insira a cidade:\n");
-    scanf("%s", cidade);
+    printf("Insira a cidadeB:\n");
+    scanf("%s", cidadeB);
 
-    printf("Insira a populacao:\n");
-    scanf("%d", &populacao);
+    printf("Insira a populacaoB:\n");
+    scanf("%d", &populacaoB);
 
-    printf("Insira a area:\n");
-    scanf("%f", &area);
+    printf("Insira a areaB:\n");
+    scanf("%f", &areaB);
 
-    printf("Insira o PIB:\n");
-    scanf("%f", &pib);
+    printf("Insira o PIBB:\n");
+    scanf("%f", &pibB);
 
-    printf("Insira o numero de pontos turisticos:\n");
-    scanf("%d", &turismo);
+    printf("Insira o numero de pontos turisticoB:\n");
+    scanf("%d", &turismoB);
 
-    // Cadastro das Cartas:
-    // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
-    // utilizando a função scanf para capturar as entradas.
-    // utilize o código do primeiro desafio
-
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
-
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
-
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+    if (populacaoA > populacaoB) {
+    printf("Cidade 1 tem maior população.\n");
+    } else {
+    printf("Cidade 2 tem maior população.\n");
+    }
 
     return 0;
 }
