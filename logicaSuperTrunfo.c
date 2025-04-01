@@ -1,15 +1,72 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 2 - Comparação das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
-// Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
+   
+    printf("Lógica Super Trunfo!");
 
-    
+    char estado;
+
+    char codigo[3];
+
+    char cidade[30];
+
+    int populacao;
+
+    float area, pib;
+
+    int turismo;
+
+    // Cadastro da Carta 1 //
+
+    printf("Carta1\n");
+
+    printf("Insira o estado:\n");
+    scanf("%c", &estado);
+
+    printf("Insira o codigo:\n");
+    scanf("%s", codigo);
+
+    printf("Insira a cidade:\n");
+    scanf("%s", cidade);
+
+    printf("Insira a populacao:\n");
+    scanf("%d", &populacao);
+
+    printf("Insira a area:\n");
+    scanf("%f", &area);
+
+    printf("Insira o PIB:\n");
+    scanf("%f", &pib);
+
+    printf("Insira o numero de pontos turisticos:\n");
+    scanf("%d", &turismo);
+
+    // Cadastro da Carta 2 //
+
+    printf("Carta2\n");
+
+    printf("Insira o estado:\n");
+    scanf("%c%*c", &estado);
+
+    printf("Insira o codigo:\n");
+    scanf("%s", codigo);
+
+    printf("Insira a cidade:\n");
+    scanf("%s", cidade);
+
+    printf("Insira a populacao:\n");
+    scanf("%d", &populacao);
+
+    printf("Insira a area:\n");
+    scanf("%f", &area);
+
+    printf("Insira o PIB:\n");
+    scanf("%f", &pib);
+
+    printf("Insira o numero de pontos turisticos:\n");
+    scanf("%d", &turismo);
+
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
